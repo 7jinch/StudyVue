@@ -1,6 +1,5 @@
 <template>
   <section id="portfolio" class="container">
-<<<<<<< HEAD
     <h1>portfolio</h1>
     <ul class="list row">
       <li v-for="data in props.data" class="col-md-4">
@@ -11,30 +10,11 @@
         <router-link class="btn btn-primary" :to="'/detail/' + data.id"
           >상세보기</router-link
         >
-=======
-    <h1>Portfolio</h1>
-    <ul class="list row">
-      <li class="col-md-4">
-        <img src="/images/work1.jpg" alt="1" />
-        <h3>title 1</h3>
-        <p>작품 설명</p>
-      </li>
-      <li class="col-md-4">
-        <img src="/images/work2.png" alt="2" />
-        <h3>title 2</h3>
-        <p>작품 설명</p>
-      </li>
-      <li class="col-md-4">
-        <img src="/images/work3.png" alt="3" />
-        <h3>title 3</h3>
-        <p>작품 설명</p>
->>>>>>> 66e45cbd59f4d41a0849106fdcf9be15802f4e49
       </li>
     </ul>
   </section>
 </template>
 
-<<<<<<< HEAD
 <script setup>
 // 상위 컴포넌트(App.vue)로부터 props 전달받기
 const props = defineProps({
@@ -69,8 +49,3 @@ const props = defineProps({
   }
 }
 </style>
-=======
-<script setup></script>
-
-<style lang="scss" scoped></style>
->>>>>>> 66e45cbd59f4d41a0849106fdcf9be15802f4e49
